@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: PlataformaInscripciones
+  data:
+    mongodb:
+      uri: mongodb+srv://julbbenavides_db_user:yfrvlygjKfKzXG3X@cluster0.jrdpzlo.mongodb.net/universidad_inscripciones?retryWrites=true&w=majority&appName=Cluster0
+      database: universidad_inscripciones
+server:
+  port: 8080
+security:
+  jwt:
+    secret: SuperSecretKeyParaJwtLocal
+
